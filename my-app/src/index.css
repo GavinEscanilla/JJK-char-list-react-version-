@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+body #root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #27254C;
+  padding: 0;
+  margin: 0px;
+  height: auto;
+  min-height: 100vh;
+  text-align: center;
+}
+body #root #roots h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Tsukushi B Mincho Pr6N H", serif;
+}
+body #root #roots #container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body #root #roots #container .jjk-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #8E4585;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  width: 20%;
+  min-width: 250px;
+  height: 300px;
+  align-items: center;
+  position: relative;
+}
+body #root #roots #container .jjk-info:hover {
+  animation: flame 2s infinite alternate;
+}
+
+@keyframes flame {
+  0% {
+    box-shadow: 0 0 10px #D50000, 0 0 20px #D50000, 0 0 30px #D50000, 0 0 40px #D50000, 0 0 50px #D50000;
+  }
+  25% {
+    box-shadow: 0 0 15px #D50000, 0 0 25px #D50000, 0 0 35px #D50000, 0 0 45px #D50000, 0 0 55px #D50000;
+  }
+  50% {
+    box-shadow: 0 0 20px #2196F3, 0 0 30px #2196F3, 0 0 40px #2196F3, 0 0 50px #2196F3, 0 0 60px #2196F3;
+  }
+  75% {
+    box-shadow: 0 0 15px #2196F3, 0 0 25px #2196F3, 0 0 35px #2196F3, 0 0 45px #2196F3, 0 0 55px #2196F3;
+  }
+  100% {
+    box-shadow: 0 0 20px #6A1B9A, 0 0 30px #6A1B9A, 0 0 40px #6A1B9A, 0 0 50px #6A1B9A, 0 0 60px #6A1B9A;
+  }
+}/*# sourceMappingURL=index.css.map */
